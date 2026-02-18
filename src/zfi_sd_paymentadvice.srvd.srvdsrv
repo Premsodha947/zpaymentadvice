@@ -1,0 +1,5 @@
+@EndUserText.label: 'Payment Document Report Service Def'
+define service Zfi_sd_paymentadvice {
+  expose ZFI_C_PaymentAdv as payAdvDet;
+  expose I_Plant          as plant;
+}

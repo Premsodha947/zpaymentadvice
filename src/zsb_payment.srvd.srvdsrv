@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZSB_Payment_n'
+define service ZSB_Payment {
+  expose ZI_Payment_Header as Header;
+  expose ZI_Payment_Item   as Items;
+  expose ZC_Payment_Item   as Item;
+}

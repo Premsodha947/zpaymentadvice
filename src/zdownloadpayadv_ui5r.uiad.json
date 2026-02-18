@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Download Payment Advice"
+  },
+  "ui5AppDetails": {
+    "appId": "zdownloadpaymentadvice"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_8C580FFD047DE7DA3915F8CD7E228722BAB52020_TM",
+    "semanticObject": "downloadpayadv",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_8C580FFD047DE7DA3915F8CD7E228722BAB52020_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Download Payment Advice"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+@Metadata.layer: #CORE
+@UI:{ 
+headerInfo:{ typeName: 'Post Outgoing Payment' }}
+
+annotate entity ZI_Payment_Header
+    with {
+@UI.facet:[{ 
+    id: 'identification',
+    purpose: #STANDARD,
+    type: #IDENTIFICATION_REFERENCE,
+    label: 'Post Outgoing Payment' }]
+    
+    @UI: { 
+    identification: [{position: 1}],
+    lineItem: [{position: 1}],
+    selectionField: [{ position: 1 }]}
+    AccountingDocument;
+    @UI: { identification: [{position: 10}], lineItem: [{position: 10}] }
+CompanyCode;
+
+@UI: { lineItem: [
+              {type: #FOR_ACTION,
+               dataAction: 'print',
+               label: 'PRINT'}  ]}
+
+@UI: { identification: [{position: 20}], lineItem: [{position: 20}] }
+FiscalYear;
+
+
+@UI: { identification: [{position: 40}], lineItem: [{position: 40}] }
+Name;
+
+@UI: { identification: [{position: 50}], lineItem: [{position: 50}] }
+City;
+
+@UI: { identification: [{position: 60}], lineItem: [{position: 60}] }
+Street;
+
+@UI: { identification: [{position: 70}], lineItem: [{position: 70}] }
+Region;
+
+@UI: { identification: [{position: 80}], lineItem: [{position: 80}] }
+Country;
+
+@UI: { identification: [{position: 90}], lineItem: [{position: 90}] }
+Supplier;
+
+@UI: { identification: [{position: 100}], lineItem: [{position: 100}] }
+Documentdate;
+
+
+
+    
+    
+}
